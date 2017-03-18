@@ -154,18 +154,56 @@ li.even {
     background: rgba(227, 151, 14, 0.27);
     margin: 10px;
 }
-
-.info p {
+div.info{
+    margin-top: 15px;
     background: #003161;
+    padding: 30px;
+    padding-bottom: 132px;
+    box-shadow: 1px 1px 3px 1px black;
+}
+.info p {
     text-shadow: 2px 1px 3px black;
     color: white;
-    text-align: center;
-    padding: 30px;
-    box-shadow: 1px 1px 3px 1px black;
+    text-align: justify;
+    font-size: 30px;
+}
+.info p:first-letter{
+    font-size: 40px;
+}
+.info img{
+    float: right;
+    margin: 0 0 10px 10px;
+    border: 33px solid rgba(248, 227, 189, 0.85);
 }
 
 .contact-forms {
     background: rgba(227, 151, 14, 0.27);
     text-align: center;
     padding: 10px;
+    margin-top: 15px;
+    position: relative;
+}
+form{
+    margin: 30px;
+    text-align: -webkit-right;
+    font-size: 23px;
+}
+form img{
+    float: right;
+    margin: 0 0 10px 10px;
+}
+.form-control{
+    padding: 7px;
+    font-size: 17px;
+    margin: 7px;
+}
+button{
+    margin-right: 25%;
+    padding: 10px 40px 10px 40px;
+    outline: none;
+    background: #003161;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    text-shadow: 2px 2px black;
 }
