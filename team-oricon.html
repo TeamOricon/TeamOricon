@@ -71,6 +71,8 @@
                         <img src="sometimes-i-just-need.jpg" height="216" width="233"/></li>
                     <li class="odd">
                         <img src="test-your-site.jpg" height="216" width="233"/></li>
+                    <li class="open-book">
+                        <img src="open-book.png" height="337" width="500"/></li>
                 </ul>
             </div>
         </div>
@@ -151,6 +153,29 @@
             </ul>
         </div>
     </footer>
+    <!-- Span Slider -->
+    <a href="#" id="scrollToTop" class="button-to-top" style="display: block">
+        <img src="knikbo.png"/>
+    </a>
+    <script>
+        $(document).ready(function () {
+            var offset = 220;
+            var duration = 500;
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > offset) {
+                    $('#scrollToTop').fadeIn(duration);
+                } else {
+                    $('#scrollToTop').fadeOut(duration);
+                }
+            });
+
+            $('#scrollToTop').click(function (event) {
+                event.preventDefault();
+                $('html, body').animate({ scrollTop: 0 }, 800);
+                return false;
+            });
+        });
+    </script>
 </div>
 </body>
 </html>
