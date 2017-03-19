@@ -140,11 +140,13 @@ h2 {
     display: inline-block;
     padding: 35px;
 }
-.gallery ul{
+
+.gallery ul {
     margin: 0 auto;
     width: 91%;
     padding: 10px;
 }
+
 li.odd {
     background: rgba(35, 76, 138, 0.27);
     margin: 10px;
@@ -154,23 +156,27 @@ li.even {
     background: rgba(227, 151, 14, 0.27);
     margin: 10px;
 }
-div.info{
+
+div.info {
     margin-top: 15px;
     background: #003161;
     padding: 30px;
     padding-bottom: 132px;
     box-shadow: 1px 1px 3px 1px black;
 }
+
 .info p {
     text-shadow: 2px 1px 3px black;
     color: white;
     text-align: justify;
     font-size: 30px;
 }
-.info p:first-letter{
+
+.info p:first-letter {
     font-size: 40px;
 }
-.info img{
+
+.info img {
     float: right;
     margin: 0 0 10px 10px;
     border: 33px solid rgba(248, 227, 189, 0.85);
@@ -183,21 +189,26 @@ div.info{
     margin-top: 15px;
     position: relative;
 }
-form{
+
+form {
     margin: 30px;
     text-align: -webkit-right;
     font-size: 23px;
 }
-form img{
+
+form img {
     float: right;
     margin: 0 0 10px 10px;
 }
-.form-control{
+
+.form-control {
     padding: 7px;
+    padding-left: 28px;
     font-size: 17px;
     margin: 7px;
 }
-button{
+
+button {
     margin-right: 33%;
     padding: 10px 40px 10px 40px;
     outline: none;
@@ -207,6 +218,51 @@ button{
     color: white;
     text-shadow: 2px 2px black;
 }
-button:hover{
+
+button:hover {
     cursor: pointer;
+}
+
+.fa {
+    color: #003161;
+    position: absolute;
+    padding-top: 13px;
+    padding-left: 11px;
+}
+
+footer {
+    background: rgba(233, 231, 238, 1);
+}
+
+footer {
+    padding: 4% 0px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer .location_softuni {
+    display: inline;
+    font-size: 30px;
+}
+
+.location_softuni a {
+    text-decoration: none;
+    color: #333;
+}
+
+.fa-graduation-cap {
+    color: #003161;
+    position: relative;
+    font-size: 30px;
+}
+
+.social li, .social a {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    font-size: 30px;
+}
+
+.fa-facebook-square:hover, .fa-youtube-play:hover, .fa-google-plus-square:hover, .fa-instagram:hover, .fa-graduation-cap:hover {
+    color: #EDAB1F;
 }
